@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My page</title>
+  </head>
+  <body>
+    <header style="border: 1px solid transparent">
+      <h1>My page</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="about.html" target="_blank">About</a>
+          </li>
+          <li>
+            <a href="about.html">Start</a>
+          </li>
+          <li>
+            <a href="about.html">Lorem.</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section style="border: 1px solid transparent">
+        <article>
+          <img width="300px" height="200px" src="/image.webp" alt="bildbeskrivning"/>
+          <h2>Hejsan!</h2>
+          <p>Lorem ipsum<br> dolor sit amet.</p>
+          <h3>Rubrik H3</h3>
+          <!-- <b>Fet text</b> -->
+          <!-- Kommentar -->
+          <strong>Lorem ipsum dolor sit amet.</strong>
+          <small>Lorem ipsum dolor sit amet.</small>
+          <i>Kursiv text</i>
+          <s>STRUKENT TEXT</s>
+        </article>
+        <hr>  
+        <article>
+          <img width="300px" height="200px" src="/image.webp" alt="bildbeskrivning"/>
+        
+          <h2>Hejsan!</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <!-- <b>Fet text</b> -->
+          <!-- Kommentar -->
+          <strong>Lorem ipsum dolor sit amet.</strong>
+          <small>Lorem ipsum dolor sit amet.</small>
+          <i>Kursiv text</i>
+          <s>STRUKENT TEXT</s>
+        </article>
+      </section>
+      <section style="border: 1px dashed red;">
+        <table style="border: 1px solid red; margin-top:50px;">
+          <thead>
+            <tr>
+              <th>Rubrik 1</th>
+              <th>Rubrik 2</th>
+              <th>Rubrik 3</th>
+              <th>Rubrik 2</th>
+              <th>Rubrik 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>hej</td>
+              <td>hej</td>
+              <td>hej</td>
+              <td>hej</td>
+              <td>hej</td>
+            </tr>
+            <tr>
+              <td>hej</td>
+              <td>hej</td>
+              <td>hej</td>
+              <td>hej</td>
+              <td>hej</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr>  
+      <section style="margin: 50px">
+        <h2>Form</h2>
+        <form method="get" target="index.html">
+          <div>
+            <label for="firstname">Namn</label>
+            <input id="firstname" name="first-name" type="text" />
+          </div>
+          <br>
+          <div>
+            <label for="desc">Text</label>
+            <textarea cols="5" rows="10" id="desc"></textarea>
+          </div>
+          <br>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" />
+          </div>
+          <br>
+          <div>
+            <label for="age">Age</label>
+            <input id="age" name="age" type="number" />
+          </div>
+          <br>
+          <div>
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date" />
+          </div>
+          <br>
+          <div>
+            <label for="date">Dropdown</label>
+            <select>
+              <option>Value 1</option>
+              <option>Value 2</option>
+              <option>Value 3</option>
+            </select>
+          </div>
+          <div>
+            <label for="color"> Color </label>
+            <input id="color" name="color" type="color" />
+          </div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="">Footer link</a>
+      </nav>
+    </footer>
+  </body>
+</html>

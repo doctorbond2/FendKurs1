@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Restaurant Take it Cheesy</h1>
+    <nav>
+      <p>
+        <a href="/Restaurangen/Startsida.html" target="_blank">Startsida</a>
+      </p>
+    </nav>
+    <hr>
+  </header>
+  <main>
+    <section>
+      <h2>Bordsbokning</h2>
+      <form method="get" target="order.html">
+        <div>
+          <label for="namn">Namn:</label>
+          <input id="namn" name="namn" type="text">
+        </div>
+        <p></p>
+        <div>
+          <label for="guests" name="guests">Antal gäster:</label>
+          <select id="guests" name="guests">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select>
+        </div>
+        <p></p>
+        <div>
+          <label for="date" name="date">Datum:</label>
+          <input id="date" name="date" type="date">
+          <label for="tid" name="tid"> Klockan</label>
+          <select id="tid" name="tid">
+            <option>12:00</option>
+            <option>13:00</option>
+            <option>14:00</option>
+            <option>15:00</option>
+            <option>16:00</option>
+            <option>17:00</option>
+            <option>18:00</option>
+            <option>19:00</option>
+            <option>20:00</option>
+            <option>21:00</option>
+          </select>
+        </div>
+        <p></p>
+        <div>
+          <label for="allergies" name="allergies"></label>
+          <h4>Eventuella allergier eller annan info:</h4>
+          <textarea cols=30" rows="10" id="allergies" name="allergies"></textarea>
+        </div>
+        <div>
+          <button alt="submit-booking-button" type="submit"
+          >Boka</button>
+          <button alt="reset-button" type="reset"
+          >Återställ</button>
+        </div>
+
+    </form>
+    </section>
+  </main>
+  
+</body>
+</html>

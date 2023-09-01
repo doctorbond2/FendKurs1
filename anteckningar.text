@@ -1,0 +1,29 @@
+Använd inte bara divar, utan utbyttja olika html elelment för att strukturera hemsidan bättre.
+
+
+<header></header>
+
+All navigering på hemsidan görs via nav.
+<nav></nav>
+
+unordered lsit
+<ul></ul>
+
+list-item
+<li></li>
+
+<a></a>
+
+<main></main>
+
+<sectionZ></sectionZ>
+
+tabell
+<table></table>
+
+
+
+Inline element, block element
+
+command shift 7
+
