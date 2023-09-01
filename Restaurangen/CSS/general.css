@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: yellow;
+}
+.article {
+  display: block;
+  
+}
+span {
+  padding: 10px
+}
+.list {
+  float: left;
+
+}
+.list a {
+  color: blue;
+  margin-left: 10px;
+}
+.unsorted-list {
+  display: inline;
+  text-align: center;
+  list-style-type: none;
+  
+}
+.icon-image {
+  border: none;
+  border-radius: 50px;
+  height: 100px;
+  display: inline-block;
+}
+.rubrik {
+  display: flex;
+  align-items: center;
+}
+.form {
+  width: 250px;
+  
+  text-align: left;
+}
+
+.order-main{
+  margin-left: 50%;
+  width: 8em
+}
+div {
+  margin-top: 10px;
+}

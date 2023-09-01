@@ -1,0 +1,54 @@
+
+header {
+  background-color: gold;
+}
+p {
+  background-color: blue;
+}
+div {
+  background-color: lightgreen;
+}
+section {
+  background-color: red;
+}
+nav {
+  background: pink;
+}
+ul li {
+  background-color: black;
+  list-style: none;
+  color: white;
+
+}
+ul {
+  display: flex;
+  background-color: darkgreen;
+  color: green;
+}
+footer {background-color: purple;}
+
+address {
+  background-color: orange;
+}
+
+span {
+  background-color: black;
+}
+
+
+
+
+header .flexbox {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+
+}
+
+.flexbox h1 {
+  background-color: black;
+}
+
+a:visited {
+  color: yellow;
+}

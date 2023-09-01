@@ -27,3 +27,16 @@ Inline element, block element
 
 command shift 7
 
+Dag2:
+
+BOOTSTRAP
+
+alla element => * {
+
+}
+
+Inline tar bara platsen som är text 
+
+justify content - flex start, space between
+
+använd gap om det går

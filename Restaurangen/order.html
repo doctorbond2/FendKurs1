@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Boka bord - Cheesy</title>
+<link rel="stylesheet" href="/Restaurangen/CSS/general.css" >
 </head>
 <body>
   <header>
-    <h1>Restaurant Take it Cheesy</h1>
+    <div class="rubrik">
+    <span><h1>Restaurant Take it Cheesy</h1></span>
+    <img class="icon-image" height="100px" width="100px" src="/Restaurangen/bilder/pizzamemeguy.jpeg">
+  </div>
     <nav>
       <p>
         <a href="/Restaurangen/Startsida.html" target="_blank">Startsida</a>
@@ -17,17 +21,30 @@
     <hr>
   </header>
   <main>
-    <section>
+    <section class="order-main">
       <h2>Bordsbokning</h2>
-      <form method="get" target="order.html">
+      <form class="form" method="get" target="order.html">
         <div>
           <label for="namn">Namn:</label>
-          <input id="namn" name="namn" type="text">
+          <input
+          style="background-color: lightskyblue;"
+          required 
+          placeholder="Namn och efternamn" 
+          id="namn" 
+          name="namn" 
+          type="text" 
+          autocomplete="on"
+          >
         </div>
         <p></p>
         <div>
           <label for="guests" name="guests">Antal gäster:</label>
-          <select id="guests" name="guests">
+          <select 
+          id="guests" 
+          name="guests"
+          required
+          style="background-color: lightskyblue;"
+          >
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -39,26 +56,26 @@
         <p></p>
         <div>
           <label for="date" name="date">Datum:</label>
-          <input id="date" name="date" type="date">
-          <label for="tid" name="tid"> Klockan</label>
-          <select id="tid" name="tid">
-            <option>12:00</option>
-            <option>13:00</option>
-            <option>14:00</option>
-            <option>15:00</option>
-            <option>16:00</option>
-            <option>17:00</option>
-            <option>18:00</option>
-            <option>19:00</option>
-            <option>20:00</option>
-            <option>21:00</option>
+          <input 
+          id="date" 
+          name="date" 
+          type="datetime-local"
+          required
+          style="background-color: lightskyblue;"
+          >
           </select>
         </div>
         <p></p>
         <div>
           <label for="allergies" name="allergies"></label>
-          <h4>Eventuella allergier eller annan info:</h4>
-          <textarea cols=30" rows="10" id="allergies" name="allergies"></textarea>
+          <h4>Eventuella allergier eller annan info till oss:</h4>
+          <textarea
+          style="background-color: lightskyblue;"
+          placeholder="Allergier, extra ingredienser..."
+          cols=30" 
+          rows="10" 
+          id="allergies" 
+          name="allergies"></textarea>
         </div>
         <div>
           <button alt="submit-booking-button" type="submit"
@@ -70,6 +87,36 @@
     </form>
     </section>
   </main>
+  <footer>
+    <hr>
+    <nav>
+      <small>
+        
+        <li>
+          <a href="/Restaurangen/Startsida.html"
+           target="_blank">Startsida</a>
+        </li>
+        <li>
+          <a href="/Restaurangen/info.html" 
+          target="_blank">Hitta hit/Öppettider</a>
+        </li>
+        <li>
+          <a href="/Restaurangen/meny.html"
+          target="_self" >Meny</a>
+        </li>
+        <li>
+          <a href="/Restaurangen/order.html"
+          target="_blank" >Boka bord</a>
+        </li>
+      </small>
+    </nav>
+    <p>
+      <small>Ostochpizzagott@hotmail.com</small> <br>
+      <small>Västenbottenvägen 23</small> <br>
+      <small>2023</small>
+    </p>
+  
+  </footer>
   
 </body>
 </html>

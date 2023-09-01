@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meny - Cheesy</title>
+  <link rel="stylesheet" href="/Restaurangen/CSS/general.css" >
 </head>
 <body>
 
   <header>
-    <h1>Restaurant Take it Cheesy</h1>
+    <div class="rubrik">
+      <span><h1>Restaurant Take it Cheesy</h1></span>
+      <img class="icon-image" height="100px" width="100px" src="/Restaurangen/bilder/pizzamemeguy.jpeg">
+    </div>
     <h2>Meny</h2>
     <nav>
       <p><a href="/Restaurangen/Startsida.html" target="_self"> Tillbaka till startsida</a> </p>
@@ -19,39 +23,71 @@
     <section id="meny">
       <table>
         <thead>
-          <h3>Pizzor</h3>
+          <h3><u>Våra Pizzor</u></h3>
         </thead>
         <tbody>
+          <div>
           <tr>
             <td>
-              <h3>The Classic cheese</h3>
-              <img alt="picture-cheese-pizza" width="200px" src="/Restaurangen/classic-cheese-pizza.jpeg" >
+              <h3><i>The Classic cheese</i></h3>
+              <img alt="picture-cheese-pizza" width="200px" src="/Restaurangen/bilder/classic-cheese-pizza.jpeg" >
               <div>139 kr</div>
               <i>Ost, tomat, mer ost</i>
             </td>
           </tr>
           <tr>
             <td>
-              <h3>Black and white</h3>
-              <img alt="picture-of-blue-cheese-pizza" width="200px" src="/Restaurangen/black-and-white.jpeg">
+              <h3><i>Black and white</i></h3>
+              <img alt="picture-of-blue-cheese-pizza" width="200px" src="/Restaurangen/bilder/black-and-white.jpeg">
               <div>149 kr</div>
               <i>Ost, mycket ost, blåmögel och mozzarella</i>
             </td>
           </tr>
           <tr>
             <td>
-              <h3>Green goblin</h3>
-              <img alt="picture-of-spinach-pizza" width="200px" src="/Restaurangen/spinach-cheese.jpeg">
+              <h3><i>Green goblin</i></h3>
+              <img alt="picture-of-spinach-pizza" width="200px" src="/Restaurangen/bilder/spinach-cheese.jpeg">
               <div>149 kr</div>
               <i>Vår finaste ost med spenat och mozzarella</i>
               
             </td>
           </tr>
+        </div>
         </tbody>
       </table>
     </section>
     <p><a href="/Restaurangen/order.html" target="_blank">Boka bord</a></p>
   </main>
+  <footer>
+    <hr>
+    <nav>
+      <small>
+        
+        <li>
+          <a href="/Restaurangen/Startsida.html"
+           target="_blank">Startsida</a>
+        </li>
+        <li>
+          <a href="/Restaurangen/info.html" 
+          target="_blank">Hitta hit/Öppettider</a>
+        </li>
+        <li>
+          <a href="/Restaurangen/meny.html"
+          target="_self" >Meny</a>
+        </li>
+        <li>
+          <a href="/Restaurangen/order.html"
+          target="_blank" >Boka bord</a>
+        </li>
+      </small>
+    </nav>
+    <p>
+      <small>Ostochpizzagott@hotmail.com</small> <br>
+      <small>Västenbottenvägen 23</small> <br>
+      <small>2023</small>
+    </p>
+  
+  </footer>
   
 </body>
 </html>
