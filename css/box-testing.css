@@ -33,6 +33,7 @@ address {
 
 span {
   background-color: black;
+  color: white;
 }
 
 
@@ -43,12 +44,15 @@ header .flexbox {
   width: 50%;
   justify-content: space-between;
 
+
 }
 
 .flexbox h1 {
   background-color: black;
+  color: white;
+  
 }
 
-a:visited {
-  color: yellow;
+a {
+  color: white
 }
